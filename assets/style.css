@@ -1,4 +1,5 @@
 :root{
+  color-scheme:only light;
   --lapis:#173A6B; --lapis-deep:#0F2747; --ink:#14213D; --teal:#1A9AA0;
   --gold:#C9A227; --gold-soft:#E9CF6E; --mist:#F4F7FB; --text:#3B4763; --line:#C5D0DE;
 }
@@ -71,7 +72,7 @@ section{padding:88px 0}
 .place h3{margin:0;font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:32px;color:#fff}
 .place p{margin:4px 0 0;color:#DCE4F0}
 @media (max-width:900px){.dest{grid-template-columns:1fr 1fr}.place.full{grid-column:1/-1}}
-@media (max-width:640px){.dest{grid-template-columns:1fr}.place.wide,.place.full{grid-column:auto}.hero-copy{flex-basis:100%;padding-bottom:32px}.arches{flex-basis:100%;gap:8px}.arch{height:220px}.arch.big{height:290px}.arch span{font-size:15px}.arch.big span{font-size:18px}.arch small{font-size:9px;letter-spacing:1px}}
+@media (max-width:640px){.dest{grid-template-columns:1fr}.place.wide,.place.full{grid-column:auto}.hero-copy{flex-basis:100%;padding-bottom:32px}.arches{flex-basis:100%;gap:8px}.arch{height:220px}.arch.big{height:290px}.arch span{font-size:min(15px,3.6vw)}.arch.big span{font-size:min(18px,4.6vw)}.arch figcaption{padding:32px 2px 12px}.arch small{font-size:9px;letter-spacing:1px}}
 
 .trust{display:flex;flex-wrap:wrap;gap:48px;align-items:center}
 .trust .pics{flex:1 1 380px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
