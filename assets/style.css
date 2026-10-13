@@ -106,3 +106,9 @@ footer a{color:#DCE4F0}
 .doc h2{font-size:20px;color:var(--lapis);margin:32px 0 8px}
 .doc p,.doc li{color:var(--text)}
 .muted{color:#6b7280;font-size:14px}
+
+/* language switch */
+.langs{font-size:14px;letter-spacing:1px;white-space:nowrap}
+.langs a{color:var(--mist);opacity:.6;text-decoration:none;font-weight:600}
+.langs a+a::before{content:'·';margin:0 8px;opacity:.6;color:var(--mist)}
+.langs a.on,.langs a:hover{opacity:1;color:var(--gold-soft)}
